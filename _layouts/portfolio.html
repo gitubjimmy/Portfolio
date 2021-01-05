@@ -1,15 +1,15 @@
 ---
 layout: page
 ---
-{% assign profile = site.theme_settings.profile %}
-
+{% assign profile = site.profile %}
 </div><!-- This Tag means End .container -->
 <div id="protfolio">
   <section id="about-me">
     <div class="row">
       <div class="img-wrap col-12 col-md-4">
         <div class="img">
-          <img src="{{ site.baseurl }}/{{ profile.image }}" alt="user_image">
+          <img src="./{{ profile.image }}" alt="user_image">
+          <h1>./{{ profile.image }}</h1>
         </div>
       </div>
       <div class="text-wrap col-12 col-md-8">
