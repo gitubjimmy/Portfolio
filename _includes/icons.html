@@ -1,4 +1,4 @@
-{% assign icons = site.theme_settings.icons %}
+{% assign icons = site.icons %}
 {% if icons.email %}
 <li>
   <a href="mailto:{{ icons.email }}">
@@ -11,6 +11,14 @@
 <li>
   <a href="{{ icons.linkedin }}">
     <i class="fab fa-linkedin"></i>
+  </a>
+</li>
+{% endif %}
+
+{% if icons.blog %}
+<li>
+  <a href="{{ icons.blog }}">
+    <i class="fas fa-blog"></i>
   </a>
 </li>
 {% endif %}

@@ -9,7 +9,6 @@ layout: page
       <div class="img-wrap col-12 col-md-4">
         <div class="img">
           <img src="./{{ profile.image }}" alt="user_image">
-          <h1>./{{ profile.image }}</h1>
         </div>
       </div>
       <div class="text-wrap col-12 col-md-8">
@@ -42,11 +41,11 @@ layout: page
         {% for _ in profile.skills %}
         <li class="skill">
           <p class="name">{{ _.skill }}</p>
-          <div class="progress">
+     <!-- <div class="progress">
             <div class="progress-bar" style="width: {{ _.value }}%">
               <div class="progress-value">{{ _.value }}%</div>
             </div>
-          </div>
+          </div> -->
         </li>
         {% endfor %}
       </ul>

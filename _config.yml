@@ -10,28 +10,32 @@ theme_settings :
 # Profile Settings
 profile :
   image : assets/img/smile.png
-  username : Jihwan Kim
-  description : 
+  username : 김지환
+  description : 서울대학교 전기정보공학부 
   experience :
-    start : 2017-05-03
-    end : 2018-05-06
-    experience : company name, title
-    skills : 
-      skill : HTML5 & CSS
-      value : 85  # Percent value
-        
+    - start : 2019-10-02
+      end : 2020-02-28
+      experience : Genome&Compamy BI 팀 인턴
+    - start : 2020-06-22
+      end : 2021-01-29
+      experience : 서울대학교 고형석 교수님 연구실 인턴 
+  skills : 
+    - skill : C++ (OpenGL)
+    - skill : Python (pytorch), R
+    - skill : HTML, CSS    
 # Icons
 icons :
-email:  # Full email address, e.g. "sample@google.com"
-linkedin:  # Full URL 
-github: naye0ng
-gitlab: 
-bitbucket: 
-google_plus:
-twitter:
-youtube:
-facebook:
-instagram:
+  email: "jimmynew1130@gmail.com"
+  linkedin:  # Full URL 
+  blog: https://gitubjimmy.github.io/MyBlog/
+  github: gitubjimmy
+  gitlab: 
+  bitbucket: 
+  google_plus:
+  twitter:
+  youtube:
+  facebook:
+  instagram:
 
 # Disqus
 disqus_shortname :
