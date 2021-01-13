@@ -1,31 +1,23 @@
 - project :
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url : https://github.com/naye0ng/Grape-Theme # Full URL
-    image : "portfolio.png" # path: assets/project/
-    date : 2019.06.09 - Developing
-    title : Grape-Theme
-    summary : A awesome jekyll theme!
-    description : This project is my first jekyll theme. and everyone can customize this easily.  
+    url : https://github.com/gitubjimmy/ClothSimulation  # Full URL
+    image : "cloth-simulation.png" # path: assets/project/
+    date : 2020.06.22 - 2020.08.26 
+    title : Cloth Simulation
+    summary : Cloth Simulation Visual Studio C++ Project.
+    description : Implementation of <b>Baraff, D. and Witkin, Large Steps in Cloth Simulation</b> using OpenGL
     contents :
-        - title : 1. 블로그 첫 화면 구성
-          image : home.png
-          description : <li>Responsive Layout</li>
-            <li>User Profile</li> 
-            <li>Tags</li> 
-            <li>Projects</li> 
-            <li>Pagination</li>
-        - title : 2. 태그 페이지
-          image : tags.png
-          description : <li>Responsive Layout</li> 
-            <li>Tags</li> 
-        - title : 3. 남은 개발 과제
-          image :
-          description : <li>project 부분 디자인 변경</li>
-            <li>favicon.ico, search 기능</li>
-            <li>OG Tag 추가</li>
-            <li>profile 이미지 효과</li>
-            <li>gem 배포</li> 
+        - title : 1. Overview
+          description : <li>Particle based model using triangle mesh</li>
+            <li>In each step, calculate positions of particles</li> 
+            <li>Implemented stretch, shear, bending force (+gravity)</li> 
+            <li>Constraints are implemented using mass modification</li> 
+            <li>Used modified conjugate gradient method to solve the system</li>
+        - title : 2. Reference
+          description : <li>Baraff, D. and Witkin, A. 1998. Large Steps in Cloth Simulation. In Proceedings of SIGGRAPH 98, Annual Conference Series, 43–54.</li>
+            <li>Prichard, D. 2003. Implementing Baraff & Witkin's Cloth Simulation</li>
+            <li>Shewchuk, J. 1994. An introduction to the conjugate gradient method without the agonizing pain. Technical Report CMUCS-TR-94-125, Carnegie Mellon University.</li>
 
 - project :
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 

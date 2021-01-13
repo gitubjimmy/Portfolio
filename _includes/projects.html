@@ -9,7 +9,7 @@
         <div class="card">
           {% if project.image %}
           <div class="img-wrap">
-            <img src="{{ site.url }}/assets/project/{{ project.image }}" alt="">
+            <img src="{{ site.url | append: site.baseurl }}/assets/project/{{ project.image }}" alt="">
           </div>
           {% endif %}
           <div class="text-wrap {% if project.image %}{% endif %}">
@@ -30,8 +30,8 @@
           <div class="icons">
             {% if project.url %}
             {% assign url = project.url %}
-            <a href="{{ url }}/subscription"><i class="far fa-eye"></i></a>
-            <a href="{{ url }}"><i class="fas fa-star"></i></a>
+            <a href="{{ url }}"><i class="far fa-eye"></i></a>
+   <!--     <a href="{{ url }}"><i class="fas fa-star"></i></a>  -->
             <a href="{{ url }}/fork"><i class="fas fa-code-branch"></i></a>
             {% endif %}
             {% if project.modal %}
@@ -52,4 +52,4 @@
 </section>
 
 <!-- modal -->
-<script type="text/javascript" src="{{ site.url }}/assets/js/modal.js"></script>
+<script type="text/javascript" src="{{ site.url | append: site.baseurl }}/assets/js/modal.js"></script>
