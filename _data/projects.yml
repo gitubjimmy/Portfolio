@@ -1,7 +1,7 @@
 - project :
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url : https://github.com/gitubjimmy/ClothSimulation  # Full URL
+    url : https://github.com/gitubjimmy/Cloth-Simulation  # Full URL
     image : "cloth-simulation.png" # path: assets/project/
     date : 2020.06.22 - 2020.08.26 
     title : Cloth Simulation
@@ -14,7 +14,9 @@
             <li>Implemented stretch, shear, bending force (+gravity)</li> 
             <li>Constraints are implemented using mass modification</li> 
             <li>Used modified conjugate gradient method to solve the system</li>
-        - title : 2. Reference
+        - title : 2. Result
+          image: result.gif
+        - title : 3. Reference
           description : <li>Baraff, D. and Witkin, A. 1998. Large Steps in Cloth Simulation. In Proceedings of SIGGRAPH 98, Annual Conference Series, 43–54.</li>
             <li>Prichard, D. 2003. Implementing Baraff & Witkin's Cloth Simulation</li>
             <li>Shewchuk, J. 1994. An introduction to the conjugate gradient method without the agonizing pain. Technical Report CMUCS-TR-94-125, Carnegie Mellon University.</li>
@@ -22,9 +24,18 @@
 - project :
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url :  # Full URL
-    image : # path: assets/project/
-    date : 2019.06.09 - Developing
-    title : Dummy project
-    summary : This is Dummy
-    description :  
+    url : https://github.com/gitubjimmy/Skeletal-Animation # Full URL
+    image : "skeletal-animation.png" # path: assets/project/
+    date : 2020.05.13 - 2020.06.14
+    title : Skeletal Animation
+    summary : A simple application of <b>Skeletal Animation</b> using OpenGL.
+    description :  Game "Bubble Bubble" with animated character "Veigar" from "League of Legends".
+    contents: 
+        - title : 1. Overview
+          description : <li>Used Obsidian and lol2dae to extract and convert data from "League of Legends" original file.</li>
+            <li>Designed a xml reader using C++ to read .dae file</li> 
+            <li>Used Pre-OpenGL 3.0 to render and animate the object using extracted data.</li> 
+        - title : 2. Screenshot
+          image: screenshot.gif
+        - title : 3. Reference
+          description : <a href="https://www.youtube.com/watch?v=f3Cr8Yx3GGA&t=572s">Skeletal Animation</a>
