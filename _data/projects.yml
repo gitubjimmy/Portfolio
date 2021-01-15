@@ -60,3 +60,24 @@
             <li>Put excel sheets in Data folder and run the program.</li> 
         - title : 3. Screenshot
           image: pca-screenshot.PNG
+
+- project :
+    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url : https://github.com/gitubjimmy/Implicit-Gradient-Descent # Full URL
+    image : "igd.PNG" # path: assets/project/
+    date : 2020.12.01 - 2020.12.22
+    title : Implicit Gradient Descent
+    summary : Using implicit form of gradient descent for optimiziation
+    description :  Chekcing if the advantages of implicit Euler method can also be applied to training networks when implicit form of gradient descent is used. 
+    contents: 
+        - title : 1. Overview
+          description : <li>Change equation of gradient descent into implicit form.</li>
+            <li>Discover back-propagation method for implicit gradient descent.</li> 
+            <li>Test the results and compare it with other optimization techniques.</li> 
+        - title : 2. Results
+          description : <li>Used two networks. Eve-master and 2-layer fully connected network designed with numpy.</li>
+            <li>Used MNIST dataset for fully connected network.</li> 
+            <li>Due to time complexity it was impossible to run the whole system with implicit gradient descent. Picked a few matrices and vectors to run with implicit form and the rest of the system was run with regular gradient descent.</li> 
+            <li>Overall, it showed better performance that other optimization methods, when learning rate was relatively high. It is expected to be effective when the system becomes much more complex and the initial value of learning rate is set to large value.</li>
+          image: igd-result.png
