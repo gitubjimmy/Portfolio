@@ -4,18 +4,24 @@ url: ""
 # Blog Settings
 
 theme_settings :
-  title : Grape Theme
+  title : Jihwan-Kim
   favicon : assets/favicon.ico
 
 # Profile Settings
 profile :
   image : assets/img/smile.png
   username : 김지환
-  description : 서울대학교 전기정보공학부 
+  description : 서울대학교 전기정보공학부<br/>서울과학고등학교 졸업<br/>한성 손재한 장학회 장학생
   experience :
+    - start : 2019-09-11
+      end : 
+      experience: 서울대학교 앱/웹개발 동아리 와플스튜디오
     - start : 2019-10-02
       end : 2020-02-28
       experience : Genome&Compamy BI 팀 인턴
+    - start : 2020-01-28
+      end : 2020-03-27
+      experience: 부스트코스 홍보대사 BOOSTER 2기
     - start : 2020-06-22
       end : 2021-01-29
       experience : 서울대학교 고형석 교수님 연구실 인턴 
