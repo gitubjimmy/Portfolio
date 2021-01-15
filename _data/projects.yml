@@ -39,3 +39,24 @@
           image: screenshot.gif
         - title : 3. Reference
           description : <a href="https://www.youtube.com/watch?v=f3Cr8Yx3GGA&t=572s">Skeletal Animation</a>
+
+- project :
+    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url : https://github.com/gitubjimmy/PCA-OPLS # Full URL
+    image : "PCA.PNG" # path: assets/project/
+    date : 2020.02.10 - 2020.02.28
+    title : PCA/OPLS-DA
+    summary : Can perform filtering, PCA, and OPLS-DA using GUI.
+    description :  Python code used to make executable program using auto-py-to-exe.
+    contents: 
+        - title : 1. Overview
+          description : <li>Used rpy2 package to run R based code on python.</li>
+            <li>Used ropls package in R to perform PCA and OPLS-DA.</li> 
+            <li>Used tkinter to create GUI for the program</li> 
+        - title : 2. Usage
+          description : <li>Run InstallRPackage.py in local.bat. It will install all R packages needed for program.</li>
+            <li>Use auto-py-to-exe to create executable file.</li> 
+            <li>Put excel sheets in Data folder and run the program.</li> 
+        - title : 3. Screenshot
+          image: pca-screenshot.PNG
