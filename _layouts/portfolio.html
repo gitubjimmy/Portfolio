@@ -31,6 +31,9 @@ layout: page
         <li class="meta">
           <p class="date">{{ exp.start }} ~ {{ exp.end }}</p>
           <p class="description">{{ exp.experience }}</p>
+          {% if exp.detail %}
+          <p class="detail">{{ exp.detail }}</p>
+          {% endif %}         
         </li>
         {% endfor %}
       </ul>

@@ -90,6 +90,11 @@
           .description {
             font-size: 1rem;
           }
+          .detail {
+            font-size: 0.8rem;
+            line-height: 1rem;
+            color: rgba(0, 0, 0, 0.5);
+          }
         }
         li.meta::before {
           content: "";

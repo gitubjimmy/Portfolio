@@ -6,7 +6,7 @@
     date : 2020.06.22 - 2020.08.26 
     title : Cloth Simulation
     summary : Cloth Simulation Visual Studio C++ Project.
-    description : Implementation of <b>Baraff, D. and Witkin, Large Steps in Cloth Simulation</b> using OpenGL
+    description : Implementation of <b>Baraff, D. and Witkin, A. 1998. Large Steps in Cloth Simulation</b> using OpenGL
     contents :
         - title : 1. Overview
           description : <li>Particle based model using triangle mesh</li>
